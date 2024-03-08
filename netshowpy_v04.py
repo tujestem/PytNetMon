@@ -42,7 +42,7 @@ def choose_interface():
 # Initial Settings.
 current_sort = 'tcp'
 current_page = 0
-connections_per_page = 18
+connections_per_page = 32
 
 def get_connections(sort_by='tcp'):
     conn_dict = {'tcp': [], 'udp': [], 'icmp': [], 'arp': []}
